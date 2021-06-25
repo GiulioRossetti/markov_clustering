@@ -1,6 +1,5 @@
-pytest
+networkx>=2.4
 numpy
 scipy
 scikit-learn
 matplotlib
-networkx

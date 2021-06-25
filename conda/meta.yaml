@@ -1,0 +1,33 @@
+package:
+  name: "markov_clustering"
+  version: "0.0.6"
+
+source:
+  git_rev: v0.0.6
+  git_url: https://github.com/GiulioRossetti/markov_clustering
+
+requirements:
+  host:
+    - python
+    - setuptools
+  build:
+    - python
+    - setuptools
+  run:
+    - python>=3.7
+    - networkx>=2.4
+    - numpy
+    - scipy>=0.19.0
+    - scikit-learn
+    - matplotlib
+
+about:
+  home: https://github.com/GiulioRossetti/markov_clustering
+  license: BSD-2-Clause
+  license_familY: BSD
+  license_file: LICENSE
+  summary: "Implementation of the Markov clustering (MCL) algorithm in python."
+
+extra:
+  recipe-maintainers:
+    - GiulioRossetti
